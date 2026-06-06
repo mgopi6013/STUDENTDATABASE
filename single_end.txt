@@ -1,0 +1,5 @@
+1 gopi 100.000000
+2 sakthibalan 100.000000
+3 company 500.000000
+4 solomon 450.000000
+5 tiru 400.000000
