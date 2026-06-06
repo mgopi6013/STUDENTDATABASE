@@ -30,7 +30,7 @@ ______________________________________
 | Structures    | Record Management  |
 | Functions     | Modular Programming|
 | Linux/Windows | Execution Platform |
-|____________________________________|
+
 
 📋 Functional Modules
 
