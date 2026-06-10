@@ -42,9 +42,11 @@ int main()
 			  sleep(2);
 			  system("clear");
 			  break;
-		case 's': show(hptr);
-			  printf("\nTHESE IS STUDENT DETAIL OR LIST\n"); 
-			  scanf(" %c",&w);
+		case 's': printf(" \nTHESE IS STUDENTS LIST\n");
+			  show(hptr);
+		      printf("\nPress Enter to ENTER THE STUDENT RECORD MENU\n");
+			  while(getchar() != '\n');
+			  getchar();
 			  system("clear");
 			  break;
 		case 'm': modify(hptr);
