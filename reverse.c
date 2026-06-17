@@ -3,7 +3,8 @@
 int count_fun(struct st *);
 void reverse(struct st *ptr)
 {
-	struct st *temp=ptr;
+	struct st *temp=copy_list(ptr);
+	struct st *head = temp;
 	int i,count,j;
 	count=count_fun(ptr);
 	struct st **p;
@@ -21,6 +22,7 @@ void reverse(struct st *ptr)
 		memcpy(p[i],p[j],size);
 		memcpy(p[j],&temp1,size);
 	}
+	show(head);
 }
 int count_fun(struct st *ptr)
 {
