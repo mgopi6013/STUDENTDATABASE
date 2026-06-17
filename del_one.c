@@ -27,7 +27,6 @@ int main()
 	printf("\t\t|    L/l    : Delete All records      |\t\t\n");
 	printf("\t\t|    R/r    : Reverse the list        |\t\t\n");
 	printf("\t\t+-------------------------------------+\t\t\n\n");
-
 	printf("Choose the option in the menu : ");
 	scanf(" %c",&ch);
 	switch(ch|32)
