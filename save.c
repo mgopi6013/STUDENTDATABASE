@@ -28,6 +28,7 @@ void save(struct st *ptr)
         fprintf(fp,"\t\t+---------------+---------------+---------------+\n");
         fprintf(fp,"\t\t| ROLL NUMBER   | NAME          | MARK          |\n");
         fprintf(fp,"\t\t+---------------+---------------+---------------+\n");
+
         while(temp != NULL)
         {
             fprintf(fp,
@@ -38,6 +39,7 @@ void save(struct st *ptr)
 
             temp = temp->next;
         }
+
         fprintf(fp,"\t\t+---------------+---------------+---------------+\n");
     }
     else
