@@ -21,4 +21,3 @@ void add_new(struct st **ptr)
 		last->next=temp;
 	}
 }
-
